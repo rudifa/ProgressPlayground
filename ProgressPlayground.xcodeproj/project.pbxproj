@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D6075DC2CA1B69C008C31F9 /* iProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9D6075DB2CA1B69C008C31F9 /* iProgressHUD */; };
+		9D6075EF2CA1C7AD008C31F9 /* iProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9D6075EE2CA1C7AD008C31F9 /* iProgressHUD */; };
+		9D6075F22CA1E953008C31F9 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9D6075F12CA1E953008C31F9 /* ProgressHUD */; };
+		9D6075F52CA1EB41008C31F9 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9D6075F42CA1EB41008C31F9 /* ProgressHUD */; };
 		9D9E256C2CA1B17A0002DC02 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9D9E256B2CA1B17A0002DC02 /* ProgressHUD */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6075F52CA1EB41008C31F9 /* ProgressHUD in Frameworks */,
+				9D6075EF2CA1C7AD008C31F9 /* iProgressHUD in Frameworks */,
+				9D6075F22CA1E953008C31F9 /* ProgressHUD in Frameworks */,
 				9D9E256C2CA1B17A0002DC02 /* ProgressHUD in Frameworks */,
+				9D6075DC2CA1B69C008C31F9 /* iProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +92,10 @@
 			name = ProgressPlayground;
 			packageProductDependencies = (
 				9D9E256B2CA1B17A0002DC02 /* ProgressHUD */,
+				9D6075DB2CA1B69C008C31F9 /* iProgressHUD */,
+				9D6075EE2CA1C7AD008C31F9 /* iProgressHUD */,
+				9D6075F12CA1E953008C31F9 /* ProgressHUD */,
+				9D6075F42CA1EB41008C31F9 /* ProgressHUD */,
 			);
 			productName = ProgressPlayground;
 			productReference = 9D9E25522CA1AF740002DC02 /* ProgressPlayground.app */;
@@ -114,7 +126,8 @@
 			mainGroup = 9D9E25492CA1AF740002DC02;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				9D9E256A2CA1B17A0002DC02 /* XCLocalSwiftPackageReference "../ProgressHUD" */,
+				9D6075ED2CA1C7AD008C31F9 /* XCLocalSwiftPackageReference "../../HOT/iProgressHUD" */,
+				9D6075F32CA1EB41008C31F9 /* XCLocalSwiftPackageReference "../ProgressHUD-package" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9D9E25532CA1AF740002DC02 /* Products */;
@@ -348,13 +361,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		9D9E256A2CA1B17A0002DC02 /* XCLocalSwiftPackageReference "../ProgressHUD" */ = {
+		9D6075ED2CA1C7AD008C31F9 /* XCLocalSwiftPackageReference "../../HOT/iProgressHUD" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../ProgressHUD;
+			relativePath = ../../HOT/iProgressHUD;
+		};
+		9D6075F32CA1EB41008C31F9 /* XCLocalSwiftPackageReference "../ProgressHUD-package" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../ProgressHUD-package";
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9D6075DB2CA1B69C008C31F9 /* iProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iProgressHUD;
+		};
+		9D6075EE2CA1C7AD008C31F9 /* iProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = iProgressHUD;
+		};
+		9D6075F12CA1E953008C31F9 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProgressHUD;
+		};
+		9D6075F42CA1EB41008C31F9 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProgressHUD;
+		};
 		9D9E256B2CA1B17A0002DC02 /* ProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ProgressHUD;
