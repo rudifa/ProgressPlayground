@@ -5,6 +5,7 @@
 //  Created by Rudolf Farkas on 23.09.2024.
 //
 
+import ProgressHUD
 import UIKit
 
 class ViewController: UIViewController {
@@ -12,6 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         hello()
+
+        ProgressHUD.animate("Please wait...", .ballVerticalBounce)
     }
 
     func hello() {
