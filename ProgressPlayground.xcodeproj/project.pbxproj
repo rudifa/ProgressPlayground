@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9D9E256C2CA1B17A0002DC02 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 9D9E256B2CA1B17A0002DC02 /* ProgressHUD */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9D9E25522CA1AF740002DC02 /* ProgressPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9E256C2CA1B17A0002DC02 /* ProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = ProgressPlayground;
 			packageProductDependencies = (
+				9D9E256B2CA1B17A0002DC02 /* ProgressHUD */,
 			);
 			productName = ProgressPlayground;
 			productReference = 9D9E25522CA1AF740002DC02 /* ProgressPlayground.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 9D9E25492CA1AF740002DC02;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9D9E256A2CA1B17A0002DC02 /* XCLocalSwiftPackageReference "../ProgressHUD" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9D9E25532CA1AF740002DC02 /* Products */;
 			projectDirPath = "";
@@ -337,6 +346,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		9D9E256A2CA1B17A0002DC02 /* XCLocalSwiftPackageReference "../ProgressHUD" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ProgressHUD;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D9E256B2CA1B17A0002DC02 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D9E254A2CA1AF740002DC02 /* Project object */;
 }
